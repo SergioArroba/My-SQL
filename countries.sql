@@ -25,7 +25,7 @@ WHERE languages.country_id = countries.id AND languages.percentage  > 89
 ORDER BY percentage DESC
 
 -- 5./
-SELECT  name, surface_area, population  FROM countries
+SELECT  name, surface_area, population  FROM countries	
 WHERE surface_area < 501 AND population > 100000
 
 -- 6./
